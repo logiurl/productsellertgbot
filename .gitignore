@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Bot specific
+config.py
+bot_database.db
+bot_database.db-journal
+hidden_products.json
+maintenance.lock
+*.log
+
+# State files
+tg_bot_state_*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backups
+*.db.backup
+*.db.bak
+
+# Environment
+.env
+.env.local
+
+# Certificates
+*.pem
+*.key
+*.crt
